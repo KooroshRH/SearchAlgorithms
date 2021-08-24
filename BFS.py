@@ -55,6 +55,7 @@ def getInput(rowCount):
             boardRow.insert(j, Card(cardInfo[1], int(cardInfo[0])))
             j = j + 1
         rootBoard.insert(i, boardRow)
+    print("Let's solve...");
     return rootBoard
 
 def isTarget(node):
@@ -159,7 +160,7 @@ def showResults(target, exploredNodes):
     print("Created nodes are " + str(createdNodes))
 
 if __name__ == "__main__":
-    inputString = input()
+    inputString = input("Please enter your input:\n")
     rowCount = inputString.split()[0]
     colorCount = inputString.split()[1]
     maxNum = inputString.split()[2]
