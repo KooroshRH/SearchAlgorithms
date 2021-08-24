@@ -1,8 +1,8 @@
-# Search Alghorithms
+# Search Algorithms
 
 ## Overview
 
-In this project, we want to solve a card game with three of search alghorithms.  
+In this project, we want to solve a card game with three search algorithms.  
 We want to sort cards by their number, but we must also put cards with same color in one column.
 In input we get an initial form of cards that we must change this form and reach our target form.  
 
@@ -11,6 +11,14 @@ In input we get an initial form of cards that we must change this form and reach
 > Input system is **same** for all alghorithms
 
 ## Sample
+
+For input form, in first line we provide three numbers:   
+**Columns count, colors count, max number**  
+After that for each columns, we must put cards.  
+For a single card we using this format: **number + color character**  
+And also for empty column we using **#** character.  
+
+Here we can see some sample of input and corresponding outputs.  
 
 ### Input
 ```
