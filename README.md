@@ -18,7 +18,7 @@ After that for each columns, we must put cards.
 For a single card we using this format: **number + color character**  
 And also for empty column we using **#** character.  
 
-Here we can see some sample of input and corresponding outputs.  
+Here we can see some samples of input and corresponding output.  
 
 ### Input
 ```
