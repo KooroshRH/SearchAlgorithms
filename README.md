@@ -3,8 +3,9 @@
 ## Overview
 
 In this project, we want to solve a card game with three search algorithms.  
-We want to sort cards by their number, but we must also put cards with same color in one column.
-In input we get an initial form of cards that we must change this form and reach our target form.  
+In this card game, we have to sort our cards by their number in descending order, and we must also assure that all cards in one row are of the same color. In our input we get an initial configuration of cards, in which we must change this form to reach our desired target form.
+
+> We can only remove cards from the bottom of each row and add it to the bottom of another row. No other moves are allowed.
 
 > Our target form is **not unique**
 
@@ -12,13 +13,13 @@ In input we get an initial form of cards that we must change this form and reach
 
 ## Sample
 
-For input form, in first line we provide three numbers:   
-**Columns count, colors count, max number**  
-After that for each columns, we must put cards.  
-For a single card we using this format: **number + color character**  
-And also for empty column we using **#** character.  
+For input form, in first line we receive three numbers:   
+**Rows count**, **colors count**, and **max number** of cards in each row.  
+After this line, we receive the current configuration of cards, line by line. (each line corresponding to one row.)   
+For every single card, we use the following format: **number + color character**. (e.g, 3r indicates a card which has number 3 and is red.)  
+If we have any empty rows left, they will be shown with **#** characters.  
 
-Here we can see some samples of input and corresponding output.  
+Here we can see some samples of input and their corresponding output.  
 
 ### Input
 ```
