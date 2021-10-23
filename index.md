@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+# Search Algorithms
 
-You can use the [editor on GitHub](https://github.com/KoroshRH/SearchAlgorithms/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Overview
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In this project, we want to solve a card game with three search algorithms.  
+In this card game, we have to sort our cards by their number in descending order, and we must also assure that all cards in one row are of the same color. In our input we get an initial configuration of cards, in which we must change this form to reach our desired target form.
 
-### Markdown
+> We can only remove cards from the bottom of each row and add it to the bottom of another row. No other moves are allowed.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+> Our target form is **not unique**
 
-```markdown
-Syntax highlighted code block
+> Input system is **same** for all alghorithms
 
-# Header 1
-## Header 2
-### Header 3
+## Sample
 
-- Bulleted
-- List
+For input form, in first line we receive three numbers:   
+**Rows count**, **colors count**, and **max number** of cards in each row.  
+After this line, we receive the current configuration of cards, line by line. (each line corresponding to one row.)   
+For every single card, we use the following format: **number + color character**. (e.g, 3r indicates a card which has number 3 and is red.)  
+If we have any empty rows left, they will be shown with **#** characters.  
 
-1. Numbered
-2. List
+Here we can see some samples of input and their corresponding output.  
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Input
+```
+4 2 3
+3r 1r 2r
+3b 1b 2b
+#
+#
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Output
+```
+Target is :
+-------------------
+3r 1r
+3b 1b
+2r
+2b
+-------------------
+Target depth is 2
+Move from 1th row to 3th row
+Move from 2th row to 4th row
+Explored nodes are 19
+Created nodes are 24
+```
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KoroshRH/SearchAlgorithms/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Input
+```
+4 2 5
+5g 4g 3g 2r 1g
+5r 4r 3r 2g 1r
+#
+#
