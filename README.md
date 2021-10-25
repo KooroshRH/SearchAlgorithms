@@ -1,3 +1,8 @@
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
 # Search Algorithms
 
 ## Overview
@@ -72,3 +77,11 @@ Move from 2th row to 1th row
 Explored nodes are 60
 Created nodes are 132
 ```
+[forks-shield]: https://img.shields.io/github/forks/KoroshRH/SearchAlgorithms.svg?style=for-the-badge
+[forks-url]: https://github.com/KoroshRH/SearchAlgorithms/network/members
+[stars-shield]: https://img.shields.io/github/stars/KoroshRH/SearchAlgorithms.svg?style=for-the-badge
+[stars-url]: https://github.com/KoroshRH/SearchAlgorithms/stargazers
+[issues-shield]: https://img.shields.io/github/issues/KoroshRH/SearchAlgorithms.svg?style=for-the-badge
+[issues-url]: https://github.com/KoroshRH/SearchAlgorithms/issues
+[license-shield]: https://img.shields.io/github/license/KoroshRH/SearchAlgorithms.svg?style=for-the-badge
+[license-url]: https://github.com/KoroshRH/SearchAlgorithms/blob/master/LICENSE
