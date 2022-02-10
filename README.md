@@ -7,8 +7,8 @@
 
 ## Overview
 
-In this project, we want to solve a card game with three search algorithms.  
-In this card game, we have to sort our cards by their number in descending order, and we must also assure that all cards in one row are of the same color. In our input we get an initial configuration of cards, in which we must change this form to reach our desired target form.
+We want to solve a card game with three search algorithms in this project.
+In this card game, we have to sort our cards by their number in descending order, and we must also ensure that all cards in one row are of the same color. In our input, we get an initial configuration of cards, in which we must change this form to reach our desired target form.
 
 > We can only remove cards from the bottom of each row and add it to the bottom of another row. No other moves are allowed.
 
